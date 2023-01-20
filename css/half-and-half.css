@@ -1,0 +1,382 @@
+/********* GT Official Web Colors *********/
+:root {
+  /*** Primary Colors ***/
+  --gt-black: #262626;
+  --gt-white: #ffffff;
+
+  /*** Tech Gold Colors ***/
+
+  /* Buzz Gold */
+  --gt-buzz-gold: #eeb211;
+
+  /* Tech Gold */
+  --gt-gold: #b3a369;
+  --gt-tech-gold: #b3a369;
+  --gt-gold-grad-1: #bfb37c;
+
+  /* Tech Light Gold */
+  --gt-tech-light-gold: #bfb37c;
+
+  /* Tech Medium Light Gold */
+  --gt-mdlt-gold: #ac9a58;
+
+  /* Tech Medium Gold */
+  --gt-md-gold: #a4925a;
+  --gt-tech-medium-gold: #a4925a;
+
+  /* Tech Dark Gold */
+  --gt-drk-gold: #857437;
+  --gt-tech-dark-gold: #857437;
+
+  /*** Secondary Colors ***/
+
+  /* Navy */
+  --gt-navy: #003057;
+
+  /* Link Blue */
+  --gt-blue: #004f9f;
+  --gt-link-blue: #004f9f;
+  --gt-blue-visited: #1879db;
+
+  /* Link Hover Blue */
+  --gt-blue-hover: #1879db;
+  --gt-link-hover-blue: #1879db;
+
+  /*** Grey Colors ***/
+
+  /* Text Black */
+  --gt-text-black: #262626;
+
+  /* Warm Gray -- Also known as "Pi Mile" */
+  --gt-warm-gray: #d6dbd4;
+  --gt-warm-grey: #d6dbd4;
+
+  /* Warm Gray Medium */
+  --gt-warm-gray-medium: #e5e7e4;
+  --gt-warm-grey-medium: #e5e7e4;
+
+  /* Super Light Gray */
+  --gt-superlight-gray: #f2f2f2;
+  --gt-superlight-grey: #f2f2f2;
+
+  /* Light Gray */
+  --gt-light-gray: #ccc;
+  --gt-light-grey: #ccc;
+
+  /* Warm Gray Light */
+  --gt-warm-gray-light: #f2f3f1;
+  --gt-warm-grey-light: #f2f3f1;
+
+  /* Medium Gray */
+  --gt-md-grey: #545454;
+  --gt-medium-gray-light: #545454;
+  --gt-medium-grey-light: #545454;
+
+  /* Medium Dark Gray */
+  --gt-mddk-grey: #8a8a8a;
+
+  /* Dark Gray */
+  --gt-dark-gray: #3b3b3b;
+  --gt-dark-grey: #3b3b3b;
+  --gt-drk-grey: #3b3b3b;
+
+  /* Pimile Light */
+  --gt-pimile-light: #f2f3f1;
+
+  /* Horizon */
+  --gt-horizon: #f95e10;
+  /* Tech Gradient */
+
+  /* Light (gt pimile light) */
+  --gt-light: #f2f3f1;
+
+  /* Dark Grey */
+  --gt-dark: #3b3b3b;
+
+  /*** Primary Font  ***/
+  --font-roboto: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  --font-roboto-condensed: 'Roboto Condensed', sans-serif;
+  --font-roboto-slab: "Roboto Slab", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  --font-abel: 'Abel', sans-serif;
+}
+
+/* CSS Style Sheet for half and half */
+.half-banner {
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.text-left,
+.text-left p {
+  text-align: left;
+}
+
+.text-center,
+.text-center p {
+  text-align: center;
+}
+
+.text-right,
+.text-right p {
+  text-align: right;
+}
+
+#half-and-half .card-footer {
+  padding: 0;
+  background-color: transparent;
+  border:0;
+}
+/* Colors */
+/* black */
+.gt-black {
+  background: var(--gt-black);
+}
+
+.gt-text-black h2,
+.gt-text-black h3,
+.gt-text-black h4,
+.gt-text-black h5,
+.gt-text-black h6,
+.gt-text-black dl,
+.gt-text-black ol,
+.gt-text-black ul,
+.gt-text-black p,
+.gt-text-black .p {
+  color: var(--gt-black);
+}
+
+.btn.btn-primary-black,
+.btn.btn-primary-black a,
+.btn.btn-primary-black a:link,
+.btn.btn-primary-black a:visited,
+a.btn.btn-primary-black,
+a.btn.btn-primary-black:link,
+a.btn.btn-primary-black:visited {
+  text-decoration: none;
+  background: var(--gt-dark-gray);
+  border-color: transparent;
+  color: var(--gt-white);
+}
+
+.btn.btn-primary-black:hover,
+a.btn.btn-primary-black:hover,
+a.btn.btn-primary-black:link:hover,
+a.btn.btn-primary-black:visited:hover,
+.btn.btn-primary-black a:hover,
+.btn.btn-primary-black a:link:hover,
+.btn.btn-primary-black a:visited:hover {
+  background: var(--gt-md-grey);
+  text-decoration: none;
+  color: var(--gt-white);
+}
+
+/* white */
+.gt-white {
+  background: var(--gt-white);
+}
+
+.gt-text-white h2,
+.gt-text-white h3,
+.gt-text-white h4,
+.gt-text-white h5,
+.gt-text-white h6,
+.gt-text-white dl,
+.gt-text-white ol,
+.gt-text-white ul,
+.gt-text-white p,
+.gt-text-white .p,
+.gt-text-white {
+  color: var(--gt-white);
+}
+
+.btn.btn-primary-white,
+.btn.btn-primary-white a,
+.btn.btn-primary-white a:link,
+.btn.btn-primary-white a:visited,
+a.btn.btn-primary-white,
+a.btn.btn-primary-white:link,
+a.btn.btn-primary-white:visited {
+  background: var(--gt-white);
+  color: var(--gt-black);
+}
+
+.btn.btn-primary-white:hover,
+a.btn.btn-primary-white:hover,
+a.btn.btn-primary-white:link:hover,
+a.btn.btn-primary-white:visited:hover,
+.btn.btn-primary-white a:hover,
+.btn.bbtn-primary-white a:link:hover,
+.btn.btn-primary-white a:visited:hover {
+  background: var(--gt-superlight-gray);
+  color: var(--gt-black);
+}
+
+.gt-white h2,
+.gt-white h3,
+.gt-white h4,
+.gt-white h5,
+.gt-white h6 {
+  color: var( --gt-md-gold);
+}
+
+/* blue */
+.gt-blue {
+  background: var(--gt-navy);
+}
+
+.gt-text-blue h2,
+.gt-text-blue h3,
+.gt-text-blue h4,
+.gt-text-blue h5,
+.gt-text-blue h6,
+.gt-text-blue dl,
+.gt-text-blue ol,
+.gt-text-blue ul,
+.gt-text-blue p,
+.gt-text-blue .p {
+  color: var(--gt-navy);
+}
+
+.btn.btn-primary-blue,
+.btn.btn-primary-blue a,
+.btn.btn-primary-blue a:link,
+.btn.btn-primary-blue a:visited,
+a.btn.btn-primary-blue,
+a.btn.btn-primary-blue:link,
+a.btn.btn-primary-blue:visited  {
+  background: var(--gt-navy);
+  color: var(--gt-white);
+}
+
+.btn.btn-primary-blue:hover,
+a.btn.btn-primary-blue:hover,
+a.btn.btn-primary-blue:link:hover,
+a.btn.btn-primary-blue:visited:hover,
+.btn.btn-primary-blue a:hover,
+.btn.bbtn-primary-blue a:link:hover,
+.btn.btn-primary-blue a:visited:hover {
+  background: var(--gt-blue);
+  color: var(--gt-white);
+}
+
+/* gold */
+.gt-gold {
+  background: var(--gt-gold);
+}
+
+.gt-text-gold h2,
+.gt-text-gold h3,
+.gt-text-gold h4,
+.gt-text-gold h5,
+.gt-text-gold h6,
+.gt-text-gold dl,
+.gt-text-gold ol,
+.gt-text-gold ul,
+.gt-text-gold p,
+.gt-text-gold .p {
+  color: var(--gt-gold);
+}
+
+.btn.btn-primary-gold,
+.btn.btn-primary-gold a,
+.btn.btn-primary-gold a:link,
+.btn.btn-primary-gold a:visited,
+a.btn.btn-primary-gold,
+a.btn.btn-primary-gold:link,
+a.btn.btn-primary-gold:visited {
+  background: var(--gt-gold);
+  color: var(--gt-black);
+}
+
+.btn.btn-primary-gold:hover,
+a.btn.btn-primary-gold:hover,
+a.btn.btn-primary-gold:link:hover,
+a.btn.btn-primary-gold:visited:hover,
+.btn.btn-primary-gold a:hover,
+.btn.btn-primary-gold a:link:hover,
+.btn.btn-primary-gold a:visited:hover {
+  background: var(--gt-tech-light-gold);
+  color: var(--gt-black);
+}
+
+/* gray */
+.gt-warm-gray {
+  background: var(--gt-warm-gray-medium);
+}
+
+.gt-text-warm-gray h2,
+.gt-text-warm-gray h3,
+.gt-text-warm-gray h4,
+.gt-text-warm-gray h5,
+.gt-text-warm-gray h6,
+.gt-text-warm-gray dl,
+.gt-text-warm-gray ol,
+.gt-text-warm-gray ul,
+.gt-text-warm-gray p,
+.gt-text-warm-gray .p {
+  color: var(--gt-warm-gray);
+}
+
+.btn.btn-primary-warm-gray,
+.btn.btn-primary-warm-gray a,
+.btn.btn-primary-warm-gray a:link,
+.btn.btn-primary-warm-gray a:visited,
+a.btn.btn-primary-warm-gray,
+a.btn.btn-primary-warm-gray:link,
+a.btn.btn-primary-warm-gray:visited  {
+  background: var(--gt-warm-gray);
+  color: var(--gt-black);
+}
+
+.video-embed-field-responsive-video::after {
+  margin: 0 0 2rem;
+}
+.btn.btn-primary-warm-gray:hover,
+a.btn.btn-primary-warm-gray:hover,
+a.btn.btn-primary-warm-gray:link:hover,
+a.btn.btn-primary-warm-gray:visited:hover,
+.btn.btn-primary-warm-gray a:hover,
+.btn.btn-primary-warm-gray a:link:hover,
+.btn.btn-primary-warm-gray a:visited:hover {
+  background: var(--gt-warm-gray-medium);
+  color: var(--gt-black);
+}
+
+/* transparent */
+#half-and-half .cta-content.gt-transparent {
+  padding: 0;
+}
+
+.gt-transparent h2,
+.gt-transparent h3,
+.gt-transparent h4,
+.gt-transparent h5,
+.gt-transparent h6 {
+  color: var(--gt-md-gold);
+}
+
+/* Remove top margin if in banner area */
+#gt-banner .my-3 {
+  margin-top:0 !important;
+}
+
+/* banner region specific styling */
+#gt-banner #half-and-half .cta-content.gt-transparent {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media only screen and (max-width: 576px) {
+  #half-and-half .w-50 {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  #half-and-half .w-50 img {
+    width: 100% !important;
+  }
+
+  .half-banner {
+    height: 100vh;
+  }
+}
